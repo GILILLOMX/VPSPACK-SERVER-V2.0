@@ -9,10 +9,10 @@ fi
 echo -e "\033[0;34m ===================================\033[0m"
 echo -e "\033[1;30m INSTALANDO VPSPACK-SERVER V2.0!\033[0m"
 echo -e "\033[0;34m ===================================\033[0m"
+echo -e "\033[1;33m Aguarde...\033[1;32m"
 mkdir /etc/VpsPackdir 2>/dev/null
 mkdir /etc/VpsPackdir/limite 2>/dev/null
 mkdir /etc/VpsPackdir/senha 2>/dev/null
-rm -rf instalarold
 
 wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPSPACK-SERVER-V2.0/master/vpspack.tgz > /dev/null 2>&1
 tar xvfz /root/vpspack.tgz > /dev/null 2>&1
@@ -27,6 +27,8 @@ chmod +x /bin/vps
 chmod +x /bin/speedtest.py
 
 clear
+echo -e "\033[0;34m =============================================================\033[0m"
+echo -e "\033[1;30m VPSPACK-SERVER V2.0!\033[0m"
 echo -e "\033[0;34m =============================================================\033[0m"
 echo -e "\033[1;32m Instalacion concluida\n\033[1;30m Execute vps:"
 echo -e "\033[0;34m =============================================================\033[0m"
